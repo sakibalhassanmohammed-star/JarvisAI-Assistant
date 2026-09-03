@@ -1,0 +1,57 @@
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS files
+*.log
+.DS_Store
+
+# Android Studio generated files and folders
+.idea/
+.gradle
+*.iml
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+
+# Output of the make process
+*.o
+*.so
+
+# Parcel related
+.packages
+
+# misc
+*.swp
+*~
+.svn/
+bin/
+.classpath
+.project
+.settings/
+.externalToolBuilders/
+*.sublime-workspace
+
+# IDE
+out/
+.vscode/
+*.launch
+*.sublime-project
+
+# Test Results
+*.xml
+!app/src/main/AndroidManifest.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Environment
+.env
+.env.local
+*.pem
